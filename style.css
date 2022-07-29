@@ -1,0 +1,249 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#nav-a > li > a:hover{
+    color: #8EC44A;
+}
+
+#nav-a > li > a{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 11px 22px;
+    /* height: 65px; */
+}
+
+#btn-book{
+    background-color: #CCE500;
+    border-radius: 2px;
+    margin-top: 2px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 11px 22px;
+}
+
+#btn-book:hover{
+    background-color:#8EC44A;
+    color: black;
+}
+
+#banner {
+    height: 685px;
+    width: 100%;
+    background-size:auto;
+    }
+
+#on-banner-top{
+    margin-top: -130px;
+}
+
+#heading{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading > p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#heading > h1{
+    font-weight: bolder;
+}
+
+#heading2{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading2 > p{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#heading2 > h1{
+    font-weight: 1000;
+}
+
+#search-modal{
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#modal-nav{
+    border-bottom: 1px solid rgba(151, 151, 151, 0.1);
+    padding: 13px 5px 15px 5px;
+    width: 100%;
+    height: 47px;
+    background: #f5f5f5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    justify-content: center;
+}
+
+#modal-nav > li > a{
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 0px 8px;
+    margin-right: 15px;
+}
+#city-taxi{
+    background: #CDDC39;
+    border-radius: 25px;
+}
+
+#modal-heading{
+    justify-content: center;
+
+}
+
+.text-set{
+    margin-top: 5px;
+    font-size: 16px; 
+    font-weight:600; 
+    text-align: center;
+}
+
+.text-p-set{
+    margin-top: -14px;
+    font-size: 14px;  
+    text-align: center;
+}
+
+.input1{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -8px;
+}
+.input1 > input{
+    display: block;
+    height: 40px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #e2e2e2;
+    background-color: #e2e2e2;
+   
+}
+
+.input1 > select{
+    display: block;
+    height: 40px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #e2e2e2;
+    background-color: #e2e2e2;
+   
+}
+
+.input1 > div >span{
+    background-color: #e2e2e2;
+    font-size: 10px;
+    color: #898989;
+    text-transform: uppercase;
+}
+
+#btn-search{
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #CCE500;
+    background-color: #CCE500;
+    height: 40px;
+    margin-top: -25px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.card-p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+span{
+    font-size: 12px;
+    justify-content: center;
+    line-height: .4em;
+    
+}
+
+.card-h5{
+    font-weight: bolder;
+}
+
+#six-cards{
+    padding-top: 0;
+}
+#three-cards{
+    padding-top: 0;
+}
+#three-cards > h5{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ola-features{
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+
+}
+
+.ola-footer{
+    background: #393939;
+    color: #fff;
+}
+
+.footer-p{
+    color: #fff;
+    font-weight: bolder ; 
+    font-size:15px;
+    padding-bottom: 30px
+}
+.boder-p{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-p2{
+    color: #fff;
+    font-weight: bolder ; 
+    font-size:13px;
+    
+}
+.footer-p3{
+    color: #fff;
+    font-size:13px;
+    
+}
+.footer-ul{
+    padding-left: 0;
+    list-style: none;
+}
+.footer-ul >li >p{
+    
+    font-size: 11px;
+    color: #fff;
+}
+
+.discover-p{
+    color: #fff; 
+    font-size:13px;
+}
+
+.black-nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; 
+    font-size:15px;
+    text-decoration: none;
+}

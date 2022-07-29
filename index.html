@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Gentium+Book+Plus:wght@700&family=Montserrat&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Gentium+Book+Plus:wght@700&family=Montserrat:wght@400;600&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  d-sm-none d-none d-lg-block ">
+            <div class="container">
+              <ul class="navbar-nav ml-auto text-dark flex-row align-items-center display fixed justify-content-around">
+                <li class="nav-item ">
+                  <a class=" py-0 px-2 black-nav" href="#">Drive with Ola </a>
+                </li>
+                <li class="nav-item ">
+                  <a class=" border-start py-0 px-2 black-nav" href="#">Ola Money</a>
+                </li>
+                <li class="nav-item ">
+                  <a class=" border-start py-0 px-2 black-nav" href="#">Ola Corporate</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="border-start py-0 px-2 black-nav" href="#">Ola Foundation</a>
+                </li>
+                <li class="nav-item ">
+                  <a class=" border-start py-0 px-2 black-nav" href="#">Share</a>
+                </li>
+                <li class="nav-item ">
+                  <a class=" border-start py-0 px-2 black-nav" href="#">Offers</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="border-start py-0 px-2 black-nav" href="#">Support
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.olacabs.com/webstatic/img/ola-logo.svg" width="120" height="40" class="d-inline-block align-top" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" id="nav-a">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Buy / Sell Car<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Ola Drive</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ola Select <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ola Feet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item" >
+                            <span><a id="btn-book"  class="nav-link" href="#">Book Now</a></span>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container-fluid d-flex justify-content-center align-items-center flex-column position-relative" id="banner">
+        <img src="https://cms-web.olacabs.com/00000000383.jpg" class="d-block w-100 position-absolute  start-0 h-100" id="img-main" style="object-fit: cover;" alt="...">
+        <div class="input-group w-100" id="on-banner-top">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div id="heading">
+                            <h1>Book a City Taxi to your destination in town</h1>
+                            <p>Choose from a range of categories and prices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="search-modal">
+                            <div id="navs">
+                                <ul class="nav nav-pills g-4" id="modal-nav">
+                                    <li class="nav-item">
+                                    <a id="city-taxi" class="nav-link" href="#">CITY TAXI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">OUTSTATION</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">RENTALS</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <div id="modal-heading">
+                                        <p class="text-set">Your everyday travel partner</p>
+                                        <p class="text-p-set">AC Cabs for point to point travel</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+
+                                    <div style="width:95%" class="input-group mb-3 input1">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-sm">PICKUP</span>
+                                        </div>
+                                        <input type="text" class="form-control" value="Current location" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+
+                                    <div style="width:95%" class="input-group mb-3 input1">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-sm">DROP</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter drop for ride estimate" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+
+                                    <div style="width:95%" class="input-group mb-3 input1">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-sm">WHEN</span>
+                                        </div>
+                                        <select class="custom-select" id="inputGroupSelect01">
+                                            <option selected>Now</option>
+                                            </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <button id="btn-search">Search Cabs</button>
+                                </div>
+
+
+
+                                
+                            </div>
+                        </div>
+
+                    
+                </div>
+
+            </div> 
+        </div>
+    
+        </div>
+
+    </div>
+
+    <div class="container-fluid" >
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="width: 100%">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mb-3" style="width: 100%; justify-content: center;">
+                                <div class="row g-0">
+                                    <div class="col-md-3 mt-3">
+                                        <img src="https://cms-web.olacabs.com/00000000363.svg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                        <h5 class="card-title"><a href="#">Sign up for Ola Corporate</a></h5>
+                                        <p class="card-text">Discover movies and music on your daily ride</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3" style="width: 100%; justify-content: center;">
+                                <div class="row g-0">
+                                  <div class="col-md-3 mt-3">
+                                    <img src="https://cms-web.olacabs.com/00000000361.jpeg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><a href="#">Get yourself a Share Pass</a></h5>
+                                      <p class="card-text">Enjoy cheapest rides on the go</p>
+                                     </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                 </div>
+                <div class="carousel-item" style="width: 100%;">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mb-3" style="width: 100%; justify-content: center;">
+                                <div class="row g-0">
+                                  <div class="col-md-3 mt-3">
+                                    <img src="https://cms-web.olacabs.com/00000000362.jpeg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><a href="#">Upgrade to Ola Select</a></h5>
+                                      <p class="card-text">Explore the benefits of Ola Select</p>
+                                     </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-3" style="width: 100%; justify-content: center;">
+                                <div class="row g-0">
+                                  <div class="col-md-3 mt-3">
+                                    <img src="https://cms-web.olacabs.com/00000000360.jpeg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><a href="#">Sign up for Ola Corporate</a></h5>
+                                      <p class="card-text">Employee travel management made easy</p>
+                                     </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                
+              </div>
+
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" >Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" >Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" >
+                <div id="heading2">
+                <h1>A car for every occasion</h1>
+                <p>Ola offers city taxis, inter-city cabs, and local cabs at hourly packages</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card" style="width: 100%">
+                    <img style="height: 260px;"  src="https://cms-web.olacabs.com/00000000356.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 style="font-weight: bolder;"  class="card-title">CITY TAXI</h5>
+                      <p class="card-text card-p">The perfect way to get through your everyday travel needs. City taxis are available 24/7 and you can book and travel in an instant. With rides starting from as low as Rs. 6/km, you can choose from a wide range of options! You can also opt to do your bit for the environment with Ola Share!</p>
+                    </div>
+                    <div class="container row g-3">
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style ="width: 30px; height: 30px;" src="https://www.olacabs.com/webstatic/img/service-type/ct_1.svg">
+                                </div>
+                                
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>AC Cabs</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style ="width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/ct_2.svg">
+                                </div>
+                                
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>Pocket Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img  style ="width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/ct_3.svg">
+                                </div>
+                                
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>Cashless Rides</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <br>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card" style="width: 100%">
+                    <img style="height: 260px;"   src="https://cms-web.olacabs.com/00000000357.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="font-weight: bolder;" class="card-title">Outstation</h5>
+                        <p class="card-text card-p">Ride out of town at affordable one-way and round-trip fares with Ola’s intercity travel service. Choose from a range of AC cabs driven by top partners, available in 1 hour or book upto 7 days in advance. We have you covered across India with presence in 90+ cities with over 500 one way routes.</p>
+                        
+                    </div>
+
+                    <div class="container row g-3">
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style ="width: 30px; height: 30px;" src="https://www.olacabs.com/webstatic/img/service-type/os_1.svg">
+                                </div>
+                                
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>One-Way Trips </span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style ="width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/os_2.svg">
+                                </div>
+                                
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>Advance Booking</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img  style ="width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/os_3.svg">
+                                 </div>
+                                
+                                 <div class="col-9" style="line-height: 1em;">
+                                    <span>Safe Rides </span>
+                                </div>
+                            </div>
+                             </div>
+
+                    </div>
+                    <br>
+                  </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card" style="width: 100%">
+                    <img  style="height: 260px;" src="https://cms-web.olacabs.com/00000000380.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5  style="font-weight: bolder;" class="card-title">Rentals</h5>
+                      <p class="card-text card-p">With Ola Rentals you get a cab at your disposal. So be it a  day long business meeting, a shopping trip with your friends or just a day out in a new city, we have you covered. Packages start at 1 hour and can be extended upto 12 hours!</p>
+                    </div>
+                    <br>
+                    <div class="container row g-3">
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style ="width: 30px; height: 30px;" src="https://www.olacabs.com/webstatic/img/service-type/rental_1.svg">
+                                 </div>
+                                 <div class="col-9" style="line-height: 1em;">
+                                    <span>Hourly Packages</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img style =" width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/rental_2.svg">
+                                 </div>
+                                 <div class="col-9" style="line-height: 1em;">
+                                    <span>Multiple Stops</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row g-4">
+                                <div class="col-3">
+                                    <img  style ="width: 30px; height: 30px;"  src="https://www.olacabs.com/webstatic/img/service-type/rental_3.svg">
+                                 </div>
+                                <div class="col-9" style="line-height: 1em;">
+                                    <span>Top-Rated Partners</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                  </div>
+            </div>
+
+        
+        </div>
+        
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" >
+                <div id="heading2">
+                    <h1>Why ride with Ola?</h1>
+                    <p>The best way to travel to your destination</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row g-3">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000368.jpg" class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">Cabs for Every Pocket</h5>
+                          <p class="card-text card-p">From Sedans and SUVs to Luxury cars for special occasions, we have cabs to suit every pocket                        </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000370.jpg" class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">Secure and Safer Rides</h5>
+                          <p class="card-text card-p">Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in place to ensure you a safe travel experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000374.jpg"  class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">Ola Select</h5>
+                          <p class="card-text card-p">A membership program with Ola that lets you ride a Prime Sedan at Mini fares, book cabs without peak pricing and has zero wait time.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000371.jpg"  class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">In Cab Entertainment</h5>
+                          <p class="card-text card-p">Play music, watch videos and a lot more with Ola Play! Also stay connected even if you are travelling through poor network areas with our free wifi facility.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000382.jpg" class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">Share and Express</h5>
+                          <p class="card-text card-p">To travel with the lowest fares choose Ola Share. For a faster travel experience we have Share Express on some fixed routes with zero deviations. Choose your ride and zoom away!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="card mb-3" style="max-width: 590px; border: none;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="https://cms-web.olacabs.com/00000000372.jpg" class="img-fluid rounded" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body" id="six-cards">
+                          <h5 class="card-title card-h5">Cashless Rides</h5>
+                          <p class="card-text card-p">Now go cashless and travel easy. Simply recharge your Ola money or add your credit/debit card to enjoy hassle free payments.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col" >
+                <div id="heading2">
+                    <h1>Meet our Awesome Fleet</h1>
+                    <p>The widest variety of cars to choose from</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%); border-bottom: 1px solid rgb(181, 179, 179);">
+        <div id="carouselExampleControls" class="carousel slide mr-5 ml-5 pr-5 pl-5" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <div class="card mb-3" style="width: 100%; border: none; background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <img src="https://www.olacabs.com/webstatic/img/fleet-image/auto.png" class="w-100 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-6" >
+                        <div class="card-body align-items-center">
+                            <div id="heading2">
+                                <h1>Auto</h1>
+                                <h3>Get an Auto at your doorstep</h3>
+                            </div>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card mb-3" style="width: 100%; border: none; background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <img src="https://www.olacabs.com/webstatic/img/fleet-image/bike.png" class="w-100 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-6" >
+                        <div class="card-body align-items-center">
+                            <div id="heading2">
+                                <h1>Bike</h1>
+                                <h3>On Time, Every time.</h3>
+                            </div>
+                          <p class="card-text">Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town!</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card mb-3" style="width: 100%; border: none; background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <img src="https://www.olacabs.com/webstatic/img/fleet-image/share.png" class="w-100 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-6" >
+                        <div class="card-body align-items-center">
+                            <div id="heading2">
+                                <h1>Share</h1>
+                                <h3>Eco-friendly rides at pocket-friendly rates</h3>
+                            </div>
+                          <p class="card-text">Fully air conditioned cars that you can share with others depending on your route and location</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card mb-3" style="width: 100%; border: none; background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <img src="https://www.olacabs.com/webstatic/img/fleet-image/micro.png" class="w-100 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-6" >
+                        <div class="card-body align-items-center">
+                            <div id="heading2">
+                                <h1>Micro</h1>
+                                <h3>Small fares for short rides</h3>
+                            </div>
+                          <p class="card-text">Compact yet comfortable AC cars that seat up to 3 people and give you great value for your money. Small fares for short rides.</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card mb-3" style="width: 100%; border: none; background-image: linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <img src="https://www.olacabs.com/webstatic/img/fleet-image/mini.png" class="w-100 img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-6" >
+                        <div class="card-body align-items-center">
+                            <div id="heading2">
+                                <h1>Mini</h1>
+                                <h3>Everyday dependable ride</h3>
+                            </div>
+                          <p class="card-text">A regular comfortable AC hatchback that becomes your everyday dependable ride. An economical option for daily commute.</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="container pt-5" style="background: #FDFDFD;">
+        <div class="row g-2">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" >
+
+                <div id="heading2">
+                    <h1>Book an Ola from the App</h1>
+                    <p>Download the app for exclusive deals and ease of booking</p>
+                </div>
+
+                <div style="height: 300px">
+                    <div class="row">
+                        <div class="col-4" >
+                            <img style="width: 200px; height: 50px;" src="https://www.olacabs.com/webstatic/img/playstore.png">
+                        </div>
+                        <div class="col-4">
+                            <img  style="width: 200px; height: 50px;" src="https://www.olacabs.com/webstatic/img/appstore.png">
+                        </div>
+                        <div class="col-4">
+                            <img style="width: 200px; height: 50px;" src="https://www.olacabs.com/webstatic/img/windowstore.png">
+                     </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" >
+                <img style="width: 70%;  height: 90%;margin-left: 40px;" src="https://www.olacabs.com/webstatic/img/ola-booking.png">
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid ola-features pt-5" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card mb-3" style="max-width: 350px; border: none;">
+                        <div class="row g-0">
+                          <div class="col-2">
+                            <img src="https://www.olacabs.com/webstatic/img/ola-support.svg" class="img-fluid rounded w-100" alt="...">
+                          </div>
+                          <div class="col-10">
+                            <div class="card-body" id="three-cards">
+                              <h5 class="card-title card-h5">24/7 Customer Support</h5>
+                              <p class="card-text card-p">A dedicated 24x7 customer support team always at your service to help solve any problem</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card mb-3" style="max-width: 350px; border: none;">
+                        <div class="row g-0">
+                          <div class="col-2">
+                            <img src="https://www.olacabs.com/webstatic/img/send_out_succour.svg" class="img-fluid rounded w-100" alt="...">
+                          </div>
+                          <div class="col-10">
+                            <div class="card-body" id="three-cards">
+                              <h5 class="card-title card-h5">Your Safety First</h5>
+                              <p class="card-text card-p">Keep your loved ones informed about your travel routes or call emergency services when in need</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card mb-3" style="max-width: 350px; border: none;">
+                        <div class="row g-0">
+                          <div class="col-2">
+                            <img src="https://www.olacabs.com/webstatic/img/ola-best-driver.svg" class="img-fluid rounded w-100" alt="...">
+                          </div>
+                          <div class="col-10">
+                            <div class="card-body" id="three-cards">
+                              <h5 class="card-title card-h5">Top Rated Driver-Partners</h5>
+                              <p class="card-text card-p">All our driver-partners are background verified and trained to deliver only the best experience</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container-fluid ola-footer">
+        <div class="container pt-5">
+            <p class="footer-p boder-p">Top Visited Cities</p>
+        
+            <div class="row mt-5 boder-p">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p">Popular Outstation Routes</p>
+                    
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p2">Northern India</p>
+                    <ul class="footer-ul pt-0">
+                        <li>
+                            <p>Delhi to Chandigarh Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Delhi to Agra Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Delhi to Jaipur Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Delhi to Shimla Outstation Cabs</a>
+                        </li>
+                        <li>
+                            <p>Delhi to Nainital Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Jaipur to Delhi Outstation Cabs</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p2">Southern India</p>
+                    <ul class="footer-ul pt-0">
+                        <li>
+                            <p>Chennai to Pondicherry Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Chennai to Tirupati Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Chennai to Vellore Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Chennai to Vellore Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Hyderabad to Warangal Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Hyderabad to Tirupati Outstation Cabs</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p2">East & West India</p>
+                    <ul class="footer-ul pt-0">
+                        <li>
+                            <p>Hyderabad to Tirupati Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Mumbai to Mahabaleshwar Outstation</p>
+                        </li>
+                        <li>
+                            <p>Mumbai to Lonavala Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Mumbai to Nashik Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Mumbai to Matheran Outstation Cabs</p>
+                        </li>
+                        <li>
+                            <p>Mumbai to Shirdi Outstation Cabs</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row mt-5 boder-p">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p">Social Links</p>
+                    
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://www.olacabs.com/webstatic/img/footer/fb-footer-icon.svg">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://www.olacabs.com/webstatic/img/footer/insta-footer-icon.svg">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://www.olacabs.com/webstatic/img/footer/youtube-footer-icon.svg">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://www.olacabs.com/webstatic/img/footer/twitter-footer-icon.svg">
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    
+                   
+                </div>
+                
+            </div>
+
+            <div class="row mt-5 boder-p">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <p class="footer-p">Discover Ola</p>
+                    
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="row ">
+                        <div class="col-2">
+                            <p class="discover-p">About Ola</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="discover-p">Careers</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="discover-p">Offers</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="discover-p">Contact Us</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="discover-p">Media Center</p>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="row ">
+                        <div class="col-6">
+                            <p class="footer-p2">Become a driver</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="footer-p2">Book a ride</p>
+                        </div>
+                    </div> 
+                   
+                </div>
+                
+            </div>
+
+            <div class="row mt-5 boder-p">
+                <div class="col-lg-8">
+                  <a href="#"><img src="https://www.olacabs.com/webstatic/img/footer-ola-logo.svg" width="13%" ></a>
+                </div>
+                <div class="col-lg-4">
+                  <ul class="footer-list list-unstyled text-white fs-6 d-lg-flex justify-content-lg-end ">
+                    <li><a href="#" class=" text-decoration-none text-white pr-4 footer-p3">Notices</a></li>
+                    <li><a href="#" class=" text-decoration-none text-white pr-4 footer-p3"> Terms & Conditions</a></li>
+                    <li><a href="#" class=" text-decoration-none text-white pr-4  footer-p3"> Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-12">
+                    <p class="float-lg-right copyright footer-p3">Copyright © 2018 ANI Technologies Pvt. Ltd. All rights reserved.</p>
+                  </div>
+              </div>
+    
+              
+        </div>
+    </div>
+</body>
+</html>
